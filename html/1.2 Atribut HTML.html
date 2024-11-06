@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Atribut HTML</title>
+</head>
+<body>
+
+    <!-- 1. Elemen dengan Atribut Umum -->
+
+    <!-- Atribut 'id' memberikan identifikasi unik pada elemen -->
+    <h1 id="judul-utama">Contoh Penggunaan Atribut HTML</h1>
+
+    <!-- Atribut 'class' digunakan untuk memberikan kelas pada elemen -->
+    <p class="paragraf-contoh">Ini adalah paragraf dengan kelas <strong>paragraf-contoh</strong> yang dapat digunakan untuk styling.</p>
+
+    <!-- Atribut 'src' digunakan untuk menentukan sumber gambar -->
+    <img src="https://via.placeholder.com/150" alt="Contoh Gambar" id="gambar1" style="border: 2px solid black;">
+
+    <!-- Atribut 'href' digunakan untuk menentukan URL tujuan link -->
+    <a href="https://www.example.com" target="_blank">Kunjungi Website</a>
+
+    <!-- Atribut 'alt' memberikan deskripsi alternatif gambar jika gambar tidak dapat dimuat -->
+    <img src="https://via.placeholder.com/150" alt="Gambar Alternatif" id="gambar2">
+
+    <!-- Atribut 'style' digunakan untuk menambahkan CSS langsung pada elemen -->
+    <div style="background-color: lightblue; padding: 20px;">
+        <p>Div ini menggunakan atribut 'style' untuk memberikan warna latar belakang dan padding.</p>
+    </div>
+
+    <!-- 2. Elemen dengan Atribut Form -->
+
+    <h2>Formulir Pengguna</h2>
+
+    <!-- Formulir dengan berbagai atribut input -->
+    <form action="#" method="post">
+
+        <!-- Atribut 'type' menentukan tipe input. Misalnya, 'text' untuk input teks biasa -->
+        <label for="username">Nama Pengguna:</label><br>
+        <input type="text" id="username" name="username" placeholder="Masukkan Nama Pengguna" required><br><br>
+
+        <!-- Atribut 'value' digunakan untuk menentukan nilai awal pada input -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="user@example.com" required><br><br>
+
+        <!-- Atribut 'placeholder' memberikan petunjuk teks yang muncul di dalam input -->
+        <label for="password">Kata Sandi:</label><br>
+        <input type="password" id="password" name="password" placeholder="Masukkan Kata Sandi" required><br><br>
+
+        <!-- Atribut 'name' menentukan nama untuk pengiriman data pada form -->
+        <label for="gender">Jenis Kelamin:</label><br>
+        <input type="radio" id="male" name="gender" value="male"> Laki-laki
+        <input type="radio" id="female" name="gender" value="female"> Perempuan<br><br>
+
+        <!-- Atribut 'required' menandakan bahwa elemen ini wajib diisi -->
+        <button type="submit">Kirim</button>
+    </form>
+
+</body>
+</html>

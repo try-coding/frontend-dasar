@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+      <title>Materi HTML</title>
+</head>
+<body>
+
+    <!-- 2.2.2 Elemen Teks -->
+    <h1>Judul Utama (h1)</h1>
+    <h2>Judul Kedua (h2)</h2>
+    <h3>Judul Ketiga (h3)</h3>
+    <h4>Judul Keempat (h4)</h4>
+    <h5>Judul Kelima (h5)</h5>
+    <h6>Judul Keenam (h6)</h6>
+
+    <p>Ini adalah paragraf teks biasa. <strong>Strong</strong> untuk teks yang dicetak tebal dan <em>em</em> untuk teks yang dicetak miring.</p>
+
+    <p>Ini adalah paragraf dengan elemen <span style="color: red;">span</span> untuk bagian teks yang lebih spesifik.</p>
+
+    <!-- 2.2.3 Elemen Gambar dan Media -->
+    <h2>Elemen Gambar dan Media</h2>
+
+    <img src="https://via.placeholder.com/150" alt="Contoh Gambar" width="150">
+    <p>Gambar di atas adalah contoh gambar dengan tag &lt;img&gt;.</p>
+
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        Browser Anda tidak mendukung elemen video.
+    </video>
+
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <!-- 2.2.4 Elemen Daftar -->
+    <h2>Elemen Daftar</h2>
+
+    <ul>
+        <li>Daftar tanpa urutan 1</li>
+        <li>Daftar tanpa urutan 2</li>
+        <li>Daftar tanpa urutan 3</li>
+    </ul>
+
+    <ol>
+        <li>Daftar terurut 1</li>
+        <li>Daftar terurut 2</li>
+        <li>Daftar terurut 3</li>
+    </ol>
+
+    <!-- 2.2.5 Elemen Tabel -->
+    <h2>Elemen Tabel</h2>
+
+    <table border="1">
+        <caption>Contoh Tabel</caption>
+        <tr>
+            <th>Nama</th>
+            <th>Usia</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Andi</td>
+            <td>25</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>30</td>
+            <td>Bandung</td>
+        </tr>
+    </table>
+
+    <!-- 2.2.6 Elemen Formulir -->
+    <h2>Elemen Formulir</h2>
+
+    <form action="#" method="post">
+        <label for="name">Nama:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <!-- 2.2.7 Elemen Struktur -->
+    <h2>Elemen Struktur</h2>
+
+    <header>
+        <h1>Header Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Artikel 1</h2>
+            <p>Isi artikel pertama. Ini adalah contoh penggunaan elemen <code>&lt;article&gt;</code>.</p>
+        </article>
+
+        <article>
+            <h2>Artikel 2</h2>
+            <p>Isi artikel kedua. Ini adalah contoh penggunaan elemen <code>&lt;article&gt;</code>.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nama Website. Semua hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>

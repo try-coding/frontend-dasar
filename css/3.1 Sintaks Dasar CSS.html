@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi CSS</title>
+    <style>
+        /* 
+        CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan atau gaya halaman web.
+        CSS terdiri dari 3 komponen utama: Selector, Property, dan Value.
+        */
+
+        /* 1. Selector: Menentukan elemen HTML mana yang akan diterapkan gaya */
+        p {
+            /* 2. Property: Mengatur tampilan elemen yang dipilih */
+            color: red; /* 3. Value: Menentukan nilai dari property */
+        }
+
+        /* Contoh lain */
+        h1 {
+            font-size: 30px; /* Ukuran font untuk elemen h1 */
+            text-align: center; /* Menyusun teks di tengah */
+            color: #333; /* Warna teks */
+        }
+
+        /* Menambahkan gaya untuk elemen dengan class */
+        .highlight {
+            background-color: yellow; /* Memberikan latar belakang kuning */
+            font-weight: bold; /* Membuat teks menjadi tebal */
+        }
+
+        /* Menambahkan gaya untuk elemen dengan id */
+        #unique-element {
+            font-style: italic; /* Mengubah font menjadi miring */
+            color: blue; /* Mengubah warna teks menjadi biru */
+        }
+
+        /* Penggunaan CSS untuk elemen link */
+        a {
+            color: green; /* Menetapkan warna teks pada link */
+            text-decoration: none; /* Menghapus garis bawah pada link */
+        }
+
+        a:hover {
+            color: orange; /* Mengubah warna link saat disorot (hover) */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Contoh penggunaan selector p (paragraf) -->
+    <p>Ini adalah paragraf dengan warna teks merah, sesuai dengan aturan CSS yang diterapkan di atas.</p>
+
+    <!-- 2. Contoh penggunaan selector h1 (judul) -->
+    <h1>Selamat datang di Materi CSS!</h1>
+
+    <!-- 3. Contoh penggunaan selector dengan class -->
+    <p class="highlight">Teks ini memiliki latar belakang kuning dan teks tebal.</p>
+
+    <!-- 4. Contoh penggunaan selector dengan id -->
+    <p id="unique-element">Teks ini memiliki gaya khusus dari ID unique-element.</p>
+
+    <!-- 5. Contoh link dengan gaya CSS -->
+    <a href="#">Ini adalah link yang memiliki gaya CSS.</a>
+
+</body>
+</html>

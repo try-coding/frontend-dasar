@@ -1,0 +1,68 @@
+
+
+3. Dasar-dasar CSS
+3.1 Sintaks CSS
+
+Menulis aturan CSS: Selector, Property, Value
+Penulisan CSS dengan komentar
+
+
+3.2 Menghubungkan CSS ke HTML
+
+Inline CSS: Menulis CSS langsung di elemen HTML menggunakan atribut style
+Internal CSS: Menulis CSS di dalam tag <style> dalam tag <head>
+External CSS: Menghubungkan file CSS eksternal menggunakan tag <link>
+3.3 Properti Dasar CSS
+
+3.3.1 Warna: color, background-color, border-color
+3.3.2 Teks: font-family, font-size, font-weight, font-style, text-align, text-decoration
+3.3.3 Margin, Padding, dan Border: margin, padding, border
+3.3.4 Layout dan Ukuran: width, height, max-width, max-height, min-width, min-height
+3.3.5 Display dan Positioning: display, position, top, right, bottom, left, z-index
+4. Tata Letak dan Desain Halaman
+4.1 Menggunakan Box Model
+
+Pemahaman Box Model: Content, Padding, Border, Margin
+Pengaturan ukuran dan ruang dengan Box Model
+4.2 Sistem Layout
+
+4.2.1 Layout Menggunakan Flexbox:
+Menyusun elemen dalam satu baris atau kolom menggunakan Flexbox
+Properti Flexbox: justify-content, align-items, flex-wrap, flex-direction
+4.2.2 Layout Menggunakan Grid:
+Menyusun layout dengan CSS Grid
+Properti CSS Grid: grid-template-columns, grid-template-rows, grid-column, grid-row
+4.3 Responsivitas dan Media Queries
+
+Membuat desain responsif dengan CSS
+Menggunakan Media Queries untuk menyesuaikan tampilan dengan perangkat (misal: smartphone, tablet, desktop)
+5. Fitur Lanjutan CSS
+5.1 Animasi dan Transisi
+
+5.1.1 Transisi CSS: transition
+5.1.2 Animasi CSS: @keyframes, animation, animation-delay, animation-duration
+5.2 Pseudo-Class dan Pseudo-Element
+
+Pseudo-class: :hover, :focus, :nth-child(), :first-child, :last-child
+Pseudo-element: ::before, ::after
+5.3 CSS Variables (Custom Properties)
+
+Cara mendeklarasikan dan menggunakan variabel CSS untuk nilai yang dapat digunakan kembali
+Contoh penggunaan: --primary-color
+6. Praktik Terbaik dan Pengoptimalan
+6.1 Penggunaan CSS Preprocessors (Sass, LESS)
+
+Memahami dasar penggunaan Sass dan LESS
+Penggunaan fitur seperti nesting, variables, mixins
+6.2 Optimasi Kinerja Website
+
+Mengurangi ukuran file CSS
+Menggabungkan dan meminifikasi file CSS
+Memuat CSS secara efisien (contoh: Critical CSS)
+7. Teknik Lanjutan HTML & CSS
+7.1 Pembuatan Website Responsif
+Teknik untuk menciptakan desain yang menyesuaikan dengan ukuran layar
+Media Queries lanjutan dan penggunaannya dalam web modern
+7.2 Penggunaan Framework CSS
+Pengenalan dan penggunaan framework CSS seperti Bootstrap, Tailwind CSS
+Keuntungan menggunakan framework CSS untuk mempercepat pengembangan
