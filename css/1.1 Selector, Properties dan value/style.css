@@ -1,0 +1,26 @@
+/* 
+====================
+format selector 
+==================
+
+selector {
+    propertis : value;
+}
+
+=======================
+selector terbagi menjadi 3
+=====================
+tagHtml {
+    propertis : value;
+}
+
+.class {
+    propertis : value;
+}
+
+#id {
+    propertis : value;
+}
+
+
+*/
